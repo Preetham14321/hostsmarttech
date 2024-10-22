@@ -48,37 +48,7 @@ The above exposures can result in financial loss because of the damage to the ph
 These risks need to be properly assessed and insurance solution to be suggested managing it in a cost effective manner.
 <br/>
 Our experts in SmartTech are well versed in this and can find unique solutions for Industry specific exposures and work out suitable Insurance solutions.</p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+                          
                             <div className="insurance-details__faq">
                                 <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                     <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
@@ -89,11 +59,15 @@ Our experts in SmartTech are well versed in this and can find unique solutions f
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>Fire insurance typically covers: 
- Damage to buildings and structures caused by fire 
- Loss of personal property or business assets due to fire 
- AddiƟonal expenses incurred during recovery (like temporary relocaƟon)
- Damage from related risks, such as smoke, water used for exƟnguishing the fire, and 
-explosions </p>
+                                                    <ul>
+
+<li>
+    Damage to buildings and structures caused by fire </li>
+    <li>Loss of personal property or business assets due to fire </li>
+    <li>Additional expenses incurred during recovery (like temporary relocation)</li>
+    <li>Damage from related risks, such as smoke, water used for extinguishing the fire, and explosions  </li>
+</ul>
+ </p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -114,10 +88,14 @@ businesses to protect against significant financial losses.</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p> Reinstatement Value: The cost to replace or repair the property with similar materials, 
-without considering depreciaƟon.
- Market Value: The current price at which the property could be sold, accounƟng for 
-depreciaƟon</p>
+                                                <p><span style={{
+                                                    fontWeight:"600"
+                                                }}>Reinstatement Value:</span> The cost to replace or repair the property with similar materials, 
+without considering depreciation. <br/>
+<span style={{
+                                                    fontWeight:"600"
+                                                }}>  Market Value:</span> The current price at which the property could be sold, accounting for 
+depreciation</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -127,7 +105,7 @@ depreciaƟon</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>ImplemenƟng fire safety measures (such as smoke alarms, fire exƟnguishers, and sprinkler 
+                                                <p>Implementing fire safety measures (such as smoke alarms, fire extinguishers, and sprinkler 
 systems) and maintaining the property can help lower premiums</p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -140,7 +118,7 @@ systems) and maintaining the property can help lower premiums</p>
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>It’s advisable to review your policy annually or whenever significant changes occur, such as 
-renovaƟons or increases in property value</p>
+renovations or increases in property value</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -153,32 +131,36 @@ renovaƟons or increases in property value</p>
                             <div className="insurance-details__catagories">
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
-                                    <li className="active">
-                                        <Link href="Property-insurance">Property Insurance<span className="icon-next"></span></Link>
+                                <li className="active">
+                                        <Link href="property-insurance">Property  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
                                         <Link href="health-insurance">Health Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
-                                    <li>
-                                        <Link href="car-insurance">Car Insurance<span className="icon-next"></span></Link>
+                                    <li >
+                                        <Link href="Project-insurance">Project Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
+                                        <Link href="marine-insurance">Marine  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="family-insurance">Family Insurance<span
+                                        <Link href="liability-insurance">Liability Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
+                                        <Link href="employee-insurance">Employee Benifit Insurance<span
+                                                className="icon-next"></span></Link>
+                                    </li>
+                                    <li>
+                                        <Link href="crime-insurance">Crime Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                    >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service

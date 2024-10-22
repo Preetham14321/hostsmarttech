@@ -26,14 +26,20 @@ export default function About() {
                                 </div>
                                     <img src="assets/images/about/homeAbout.png" alt=""/>
                                     {/* <img src="assets/images/resources/about-one-img-2.jpg" alt=""/> */}
-                                <div className="about-one__client-box">
+                                <div className="about-one__client-box"  style={{
+                                        margin:'auto',
+                                        
+                                    }}>
                                     <div className="about-one__client-box-bg"
                                         style={{ backgroundImage: 'url(assets/images/shapes/about-one-client-box-bg-shape.png)' }} >
                                     </div>
                                     <div className="about-one__client-img">
-                                        <img src="assets/images/resources/about-one-client-img.jpg" alt=""/>
+                                        <img src="assets/images/backgrounds/client.png" alt=""/>
                                     </div>
-                                    <div className="about-one__client-content">
+                                    <div className="about-one__client-content" style={{
+                                        margin:'auto',
+                                        
+                                    }}>
                                         <div className="about-one__count count-box">
                                             <h3 className="count-text">50</h3>
                                             <span>K</span>

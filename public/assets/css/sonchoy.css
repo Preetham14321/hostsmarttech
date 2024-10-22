@@ -782,12 +782,13 @@ ul {
 .stricky-header .main-menu__list,
 .stricky-header .main-menu__list>li>ul,
 .stricky-header .main-menu__list>li>ul>li>ul {
-  margin: 0;
+  margin: auto;
   padding: 0;
   list-style-type: none;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
   display: none;
 }
 
@@ -2698,7 +2699,7 @@ ul {
 }
 
 .main-slider-two__content .section-title__title {
-  color: var(--sonchoy-white);
+  /* color: var(--sonchoy-white); */
   font-size: 90px;
   line-height: 90px;
 }
@@ -3632,7 +3633,7 @@ ul {
 .feature-one {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+ padding-top: 30px;
   z-index: 1;
 }
 
@@ -3831,7 +3832,7 @@ ul {
 .about-one__left {
   position: relative;
   display: block;
-  margin-left: 200px;
+  /* margin-left: 200px; */
   margin-right: 70px;
 }
 
@@ -3844,6 +3845,7 @@ ul {
   position: relative;
   display: block;
   overflow: hidden;
+  margin: auto;
   z-index: 1;
 }
 
@@ -3890,11 +3892,13 @@ ul {
 
 .about-one__client-box {
   position: relative;
+  width:270px;
   display: flex;
   align-items: center;
   background-color: var(--sonchoy-base);
   padding: 23px 27px 23px;
-  margin-top: 43px;
+  margin-right: 0px;
+  justify-content: flex-end;
   z-index: 1;
 }
 
@@ -13751,7 +13755,7 @@ Project Style1
 .insurance-details {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 80px 0 120px;
   z-index: 1;
 }
 
@@ -15910,7 +15914,7 @@ Project Style1
 .contact-page {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+padding-top: 30px;
   z-index: 1;
 }
 

@@ -49,37 +49,7 @@ Most of the companies in India and abroad provide Group Health Insurance for the
 The new threat is the crime crime, which also can be handled through crime crime insurance.
 <br/>
 SmartTech experts can workout viable solution in this area also.</p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+                          
                             <div className="insurance-details__faq">
                                 <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                     <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
@@ -89,12 +59,18 @@ SmartTech experts can workout viable solution in this area also.</p>
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>crime liability insurance typically covers: 
- Data breach costs (noƟficaƟon, credit monitoring)
- Legal fees and seƩlements
- Business interrupƟon losses
- Ransomware payments 
- Crisis management and public relaƟons expenses
- IT forensics and recovery costs</p>
+                                                    <ul>
+
+                                                    <li>Data breach costs (notification, credit monitoring)</li> 
+ <li>Legal fees and settlements</li> 
+<li> Business interruption losses</li> 
+ <li>Ransomware payments</li>  
+ <li> Crisis management and public relations expenses</li> 
+ <li> IT forensics and recovery costs</li> 
+</ul>
+
+</p>
+
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -105,9 +81,13 @@ SmartTech experts can workout viable solution in this area also.</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p> First-Party Coverage: Covers losses directly incurred by your organizaƟon (e.g., business 
-interrupƟon, data restoraƟon).
- Third-Party Coverage: Covers claims made by other parƟes against your business due to 
+                                                <p><span style={{
+                                                    fontWeight:"600"
+                                                }}>First-Party Coverage:</span> Covers losses directly incurred by your organization (e.g., business 
+interruption, data restoration).
+<span style={{
+                                                    fontWeight:"600"
+                                                }}> <br/> Third-Party Coverage:</span> Covers claims made by other parties against your business due to 
 a data breach (e.g., legal claims from customers).</p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -119,7 +99,7 @@ a data breach (e.g., legal claims from customers).</p>
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>Yes, many insurers offer customizable crime liability insurance policies to fit the specific needs 
-and risks of your organizaƟon.</p>
+and risks of your organization.</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -129,8 +109,8 @@ and risks of your organizaƟon.</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>ImplemenƟng strong crimesecurity measures, regular employee training, and maintaining good 
-security pracƟces can help lower your premium</p>
+                                                <p>Implementing strong crimesecurity measures, regular employee training, and maintaining good 
+security practices can help lower your premium</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -154,32 +134,36 @@ for a claim. </p>
                             <div className="insurance-details__catagories">
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
-                                    <li className="active">
-                                        <Link href="crime-insurance">crime Insurance<span className="icon-next"></span></Link>
+                                <li>
+                                        <Link href="property-insurance">Property  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
                                         <Link href="health-insurance">Health Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
-                                    <li>
-                                        <Link href="car-insurance">Car Insurance<span className="icon-next"></span></Link>
+                                    <li  >
+                                        <Link href="Project-insurance">Project Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
+                                        <Link href="marine-insurance">Marine  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="family-insurance">Family Insurance<span
+                                        <Link href="liability-insurance">Liability Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
+                                        <Link href="employee-insurance">Employee Benifit Insurance<span
+                                                className="icon-next"></span></Link>
+                                    </li>
+                                    <li className="active"> 
+                                        <Link href="crime-insurance">Crime Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                    >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service

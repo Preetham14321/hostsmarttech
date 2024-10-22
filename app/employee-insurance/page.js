@@ -43,38 +43,8 @@ export default function Home() {
 
 In addition to have good employee relationship within the organization, business needs to provide employees various welfare schemes. Some are mandatory as per the Government acts and some voluntary by considering the employees as partner in their business. Some of the policies for employee welfare are personal accident Insurance, Group Term Life Insurance, Health Insurance, super Annuation Insurance etc.
 <br/> 
-SmartTech Employee benefit experts will support the business on this..</p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+SmartTech Employee benefit experts will support the business on this.</p>
+                           
                             <div className="insurance-details__faq">
                                 <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                     <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
@@ -84,8 +54,8 @@ SmartTech Employee benefit experts will support the business on this..</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Typically, employers cover a significant porƟon of the premiums for health insurance, while 
-employees may contribute through payroll deducƟons. The specific arrangement can vary by 
+                                                <p>Typically, employers cover a significant portion of the premiums for health insurance, while 
+employees may contribute through payroll deductions. The specific arrangement can vary by 
 employer</p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -98,7 +68,7 @@ employer</p>
                                             <div className="inner">
                                                 <p>Group insurance is a policy provided by an employer to cover a group of employees, usually at 
 lower premiums than individual insurance. Individual insurance is purchased by an individual 
-and may have different coverage opƟons and costs.</p>
+and may have different coverage options and costs.</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -108,8 +78,8 @@ and may have different coverage opƟons and costs.</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Wellness programs are iniƟaƟves offered by employers to promote health and well-being 
-among employees, oŌen including health screenings, fitness programs, and incenƟves for 
+                                                <p>Wellness programs are initiatives offered by employers to promote health and well-being 
+among employees, oŌen including health screenings, fitness programs, and incentives for 
 healthy behaviors. 
 </p>
                                             </div>{/*  /.inner  */}
@@ -117,11 +87,11 @@ healthy behaviors.
                                     </div>
                                     <div className={isActive.key == 4 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(4)}>
                                         <div className="accrodion-title">
-                                            <h4>What are the tax implicaƟons of employee benefits insurance?</h4>
+                                            <h4>What are the tax implications of employee benefits insurance?</h4>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Many employee benefits, such as health insurance premiums paid by employers, are taxdeducƟble for the employer. For employees, premiums are oŌen deducted from pre-tax 
+                                                <p>Many employee benefits, such as health insurance premiums paid by employers, are tax deductible for the employer. For employees, premiums are oŌen deducted from pre-tax 
 income, reducing their taxable income. 
 </p>
                                             </div>{/*  /.inner  */}
@@ -133,7 +103,7 @@ income, reducing their taxable income.
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Typically, employees of an organizaƟon are covered. Some policies may also include family 
+                                                <p>Typically, employees of an organization are covered. Some policies may also include family 
 members. 
 </p>
                                             </div>{/*  /.inner  */}
@@ -148,32 +118,36 @@ members.
                             <div className="insurance-details__catagories">
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
-                                    <li className="active">
-                                        <Link href="Employee benefit policies-insurance">Employee benefit policies <span className="icon-next"></span></Link>
+                                <li>
+                                        <Link href="property-insurance">Property  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
                                         <Link href="health-insurance">Health Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
-                                    <li>
-                                        <Link href="car-insurance">Car Insurance<span className="icon-next"></span></Link>
+                                    <li >
+                                        <Link href="Project-insurance">Project Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
+                                        <Link href="marine-insurance">Marine  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="family-insurance">Family Insurance<span
+                                        <Link href="liability-insurance">Liability Insurance<span
+                                                className="icon-next"></span></Link>
+                                    </li>
+                                    <li className="active">
+                                        <Link href="employee-insurance">Employee Benifit Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
+                                        <Link href="crime-insurance">Crime Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                   >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service

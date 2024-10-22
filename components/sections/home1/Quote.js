@@ -50,7 +50,7 @@ export default function Quote() {
                 }}/>
             </div>
             <div className="get-quote__img-2">
-                <img src="assets/images/resources/get-quote-img-2.png" alt=""/>
+                {/* <img src="assets/images/resources/get-quote-img-2.png" alt=""/> */}
             </div>
             <div className="container">
                 <div className="get-quote__inner">
@@ -176,7 +176,7 @@ export default function Quote() {
                                     <div  className={activeIndex == 2 ? "tab fadeInUp animated show active-tab" : "tab fadeInUp animated"}>
                                         <div className="get-quote__content">
                                             <p className="get-quote__tagline">GET FREE QUOTE</p>
-                                            <h2 className="get-quote__title">Veichle Insurance</h2>
+                                            <h2 className="get-quote__title">Car Insurance</h2>
                                             <form className="get-quote__form">
                                                 <div className="get-quote__content-box">
                                                     <div className="get-quote__input-box">
@@ -205,7 +205,7 @@ export default function Quote() {
                                     <div  className={activeIndex == 3 ? "tab fadeInUp animated show active-tab" : "tab fadeInUp animated"}>
                                         <div className="get-quote__content">
                                             <p className="get-quote__tagline">GET FREE QUOTE</p>
-                                            <h2 className="get-quote__title">Home Insurance</h2>
+                                            <h2 className="get-quote__title">Fire Insurance</h2>
                                             <form className="get-quote__form">
                                                 <div className="get-quote__content-box">
                                                     <div className="get-quote__input-box">
@@ -234,7 +234,7 @@ export default function Quote() {
                                     <div  className={activeIndex == 4 ? "tab fadeInUp animated show active-tab" : "tab fadeInUp animated"}>
                                         <div className="get-quote__content">
                                             <p className="get-quote__tagline">GET FREE QUOTE</p>
-                                            <h2 className="get-quote__title">Business Insurance</h2>
+                                            <h2 className="get-quote__title">Marine Insurance</h2>
                                             <form className="get-quote__form">
                                                 <div className="get-quote__content-box">
                                                     <div className="get-quote__input-box">

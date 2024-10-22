@@ -163,7 +163,7 @@ export default function Home() {
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                     >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service

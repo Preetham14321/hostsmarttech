@@ -67,7 +67,16 @@ export default function Home() {
                     <div className="col-xl-6 col-lg-6">
                         <div className="contact-page__right">
                             <div className="contact-page__img">
-                                <img src="assets/images/resources/contact-page-img-1.jpg" alt=""/>
+                            <a href="https://www.google.com/maps/dir//W+65%2F4,+T+LV+manor,+2nd+floor,+3rd+St,+Anna+Nagar,+Chennai,+Tamil+Nadu+600040/@13.0855359,80.1339347,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a52656b1485f3e5:0x68f93f6203b7491d!2m2!1d80.2163461!2d13.0855484?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank"  >
+                                <h3  >
+                                    Get Directions
+                                </h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7777.059647279396!2d80.2094534027375!3d13.084870200003734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265cba95e9255%3A0xd9c74a20b2d2a6d3!2sW65%2F4%20TLV%20Manor%2C%20Annanagar%20West%2C%20Chennai%2C%20Tamil%20Nadu%20600040!5e0!3m2!1sen!2sin!4v1698074394320!5m2!1sen!2sin" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</a>
+
+
+
+                                {/* <img src="assets/images/resources/contact-page-img-1.jpg" alt=""/> */}
                             </div>
                         </div>
                     </div>

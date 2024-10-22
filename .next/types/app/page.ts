@@ -1,4 +1,4 @@
-// File: D:\Programs\work\SmartTechSdk\smarttechStatic\smarttechweb\smarttechweb\app\page.js
+// File: D:\Programs\work\SmartTechSdk\smarttechStatic\hostSmarttech\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

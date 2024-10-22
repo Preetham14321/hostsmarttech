@@ -59,8 +59,7 @@ export default function Banner() {
                                             <div className="section-title__tagline-box">
                                                 <p className="section-title__tagline">RELIABLE. pERSONABLE. fAST</p>
                                             </div>
-                                            <h2 className="section-title__title" style={{
-                                                color:'#fff'
+                                            <h2 className="section-title__title section-title__title_hero " style={{
                                             }}>Protect your Family <br/> First with SmartTech</h2>
                                         </div>
                                     </div>

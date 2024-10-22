@@ -38,8 +38,7 @@ export default function Faq() {
                                     <div className="faq-one__img-box">
                                         <div className="faq-one__img">
                                         <img src="assets/images/gallery/faq.png" alt="" style={{
-                                            width:"560px",
-                                            borderRadius:"100px"
+                                           
                                         }} />
 
                                         </div>

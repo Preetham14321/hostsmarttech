@@ -54,12 +54,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                             </div>
                         </div>
                         <div className="main-menu__right">
-                            <div className="main-menu__search-box">
-                                <form action="#" className="main-menu__search-form">
-                                    <input type="search" placeholder="Search...."/>
-                                    <button type="submit"><i className="icon-search"></i></button>
-                                </form>
-                            </div>
+                            
                             {/* <div className="main-menu__cart">
                                 <Link href="products"><span className="icon-cart"></span></Link>
                             </div> */}
@@ -92,15 +87,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                                 </div>
                             </div>
                             <div className="main-menu__right">
-                                <div className="main-menu__search-box">
-                                    <form action="#" className="main-menu__search-form">
-                                        <input type="search" placeholder="Search...."/>
-                                        <button type="submit"><i className="icon-search"></i></button>
-                                    </form>
-                                </div>
-                                <div className="main-menu__cart">
-                                    <Link href="products"><span className="icon-cart"></span></Link>
-                                </div>
+                               
                                 <div className="main-menu__btn-box">
                                     <Link href="contact" className="main-menu__btn thm-btn">GET A QUOTE</Link>
                                 </div>

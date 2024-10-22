@@ -48,37 +48,7 @@ In addition if there is delay in the project completion from schedule timelines,
 The risks in different projects like power plant, metro project, pipe line lying, are different.
 <br/>
 Experts in SmartTech are familiar with such exposures and will be able provide unique insurance solution for each of the project.</p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+                         
                             <div className="insurance-details__faq">
                                 <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                     <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
@@ -87,7 +57,7 @@ Experts in SmartTech are familiar with such exposures and will be able provide u
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>EAR insurance is essenƟal for businesses that own or operate construcƟon, industrial, or heavy 
+                                                <p>EAR insurance is essential for businesses that own or operate construction, industrial, or heavy 
 machinery, including contractors, builders, and equipment rental companies. </p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -99,7 +69,7 @@ machinery, including contractors, builders, and equipment rental companies. </p>
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>Most employers are required to carry WC insurance, especially those with a certain number of 
-employees, as mandated by state or naƟonal laws.</p>
+employees, as mandated by state or national laws.</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -109,8 +79,8 @@ employees, as mandated by state or naƟonal laws.</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>CAR insurance is essenƟal for contractors, project owners, and any stakeholders involved in 
-large construcƟon projects, including builders, subcontractors, and suppliers.</p>
+                                                <p>CAR insurance is essential for contractors, project owners, and any stakeholders involved in 
+large construction projects, including builders, subcontractors, and suppliers.</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -121,11 +91,15 @@ large construcƟon projects, including builders, subcontractors, and suppliers.<
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Project insurance usually covers: 
- Physical damage to the construcƟon site and materials
- Third-party property damage 
- Bodily injury to workers or third parƟes
- Delay-related costs due to project disrupƟons</p>
+                                                <p>Project insurance usually covers:
+                                                    <ul>
+ <li>Physical damage to the construction site and materials</li>
+ <li> Third-party property damage </li>
+ <li> Bodily injury to workers or third parties</li>
+ <li> Delay-related costs due to project disruptions</li>
+</ul> 
+
+</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -135,8 +109,8 @@ large construcƟon projects, including builders, subcontractors, and suppliers.<
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Project insurance is essenƟal for contractors, project owners, subcontractors, and any 
-stakeholders involved in large construcƟon or infrastructure projects..</p>
+                                                <p>Project insurance is essential for contractors, project owners, subcontractors, and any 
+stakeholders involved in large construction or infrastructure projects.</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -150,7 +124,7 @@ stakeholders involved in large construcƟon or infrastructure projects..</p>
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
                                     <li>
-                                        <Link href="life-insurance">Life Insurance<span className="icon-next"></span></Link>
+                                        <Link href="property-insurance">Property  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
                                         <Link href="health-insurance">Health Insurance<span
@@ -160,21 +134,25 @@ stakeholders involved in large construcƟon or infrastructure projects..</p>
                                         <Link href="Project-insurance">Project Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
+                                        <Link href="marine-insurance">Marine  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="family-insurance">Family Insurance<span
+                                        <Link href="liability-insurance">Liability Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
+                                        <Link href="employee-insurance">Employee Benifit Insurance<span
+                                                className="icon-next"></span></Link>
+                                    </li>
+                                    <li>
+                                        <Link href="crime-insurance">Crime Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                    >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service

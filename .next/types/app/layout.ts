@@ -1,4 +1,4 @@
-// File: D:\Programs\work\SmartTechSdk\smarttechStatic\smarttechweb\smarttechweb\app\layout.js
+// File: D:\Programs\work\SmartTechSdk\smarttechStatic\hostSmarttech\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

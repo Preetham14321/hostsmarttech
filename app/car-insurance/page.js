@@ -47,37 +47,7 @@ In India after privatization of Insurance Industry, many private companies have 
 SmartTech Insurance brokers can help the client in identifying and selecting of a suitable Insurance cover for the motor vehicles. <br/>
 
 SmartTech is developing an online portal to help the individuals in getting the policy immediately and processing claims on line with ease.</p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+                           
 
 
                             {/* Faq Section comes here */}
@@ -153,10 +123,11 @@ Own Damage (OD) Insurance: Covers damages to your vehicle due to accidents, thef
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
                                     <li>
-                                        <Link href="life-insurance">Life Insurance<span className="icon-next"></span></Link>
+                                        <Link href="health-insurance">
+Health Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="health-insurance">Health Insurance<span
+                                        <Link href="travel-insurance">Travel Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                     <li className="active">
@@ -165,19 +136,12 @@ Own Damage (OD) Insurance: Covers damages to your vehicle due to accidents, thef
                                     <li>
                                         <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
                                     </li>
-                                    <li>
-                                        <Link href="family-insurance">Family Insurance<span
-                                                className="icon-next"></span></Link>
-                                    </li>
-                                    <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
-                                                className="icon-next"></span></Link>
-                                    </li>
+                                     
                                 </ul>
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                     >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service

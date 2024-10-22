@@ -47,37 +47,7 @@ When such transportation happens by any mode of transportation, there can be exp
 Such risks are covered by the Marine Transit Insurance policies and marine Liability Insurance polices
 <br/>
 SmartTech Experts can asses the risk exposure to any business from the Marine transit perspective and device Custom made solutions to handle the same..</p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+                         
                             <div className="insurance-details__faq">
                                 <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                     <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
@@ -89,7 +59,7 @@ SmartTech Experts can asses the risk exposure to any business from the Marine tr
                                             <div className="inner">
                                                 <p>Marine insurance provides coverage for loss or damage to ships, cargo, terminals, and any 
 transport or cargo by which property is transferred, acquired, or held. It protects against 
-mariƟme perils</p>
+maritime perils</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -99,10 +69,18 @@ mariƟme perils</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p> Hull Insurance: Covers physical damage to ships or vessels. 
- Cargo Insurance: Covers loss or damage to cargo being transported by sea. 
- Liability Insurance: Covers legal liabiliƟes arising from marine operaƟons, such as 
-polluƟon or damage to third-party property. 
+                                                <p>
+                                                    
+                                                <span style={{
+                                                    fontWeight:"600"
+                                                }}> Hull Insurance: </span> Covers physical damage to ships or vessels. <br/>
+<span style={{
+                                                    fontWeight:"600"
+                                                }}> Cargo Insurance:</span> Covers loss or damage to cargo being transported by sea. <br/>
+<span style={{
+                                                    fontWeight:"600"
+                                                }}> Liability Insurance:</span> Covers legal liabilities arising from marine operations, such as 
+pollution or damage to third-party property. 
 </p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -114,23 +92,25 @@ polluƟon or damage to third-party property.
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>Typically, required documents may include: 
- Shipping invoices 
- Bill of lading 
- Survey reports (if applicable) 
- Packing lists 
- Details of the voyage </p>
+                                                    <ul>
+                                                    <li>Shipping invoices </li>
+                                                    <li>Bill of lading </li>
+                                                    <li>Survey reports (if applicable) </li>
+                                                    <li>Packing lists </li> <li> Details of the voyage</li>
+</ul>
+ </p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
                                     <div className={isActive.key == 4 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(4)}>
                                         <div className="accrodion-title">
-                                            <h4>What is the duraƟon of a marine insurance policy?
+                                            <h4>What is the duration of a marine insurance policy?
 </h4>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>Marine insurance policies can be for a specific voyage, for a specified period, or on an open 
-policy basis covering mulƟple shipments.</p>
+policy basis covering multiple shipments.</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -155,32 +135,36 @@ policy basis covering mulƟple shipments.</p>
                             <div className="insurance-details__catagories">
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
-                                    <li className="active">
-                                        <Link href="Marine-insurance">Marine Insurance<span className="icon-next"></span></Link>
+                                <li>
+                                        <Link href="property-insurance">Property  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
                                         <Link href="health-insurance">Health Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
-                                    <li>
-                                        <Link href="car-insurance">Car Insurance<span className="icon-next"></span></Link>
+                                    <li  >
+                                        <Link href="Project-insurance">Project Insurance<span className="icon-next"></span></Link>
+                                    </li>
+                                    <li className="active">
+                                        <Link href="marine-insurance">Marine  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
-                                    </li>
-                                    <li>
-                                        <Link href="family-insurance">Family Insurance<span
+                                        <Link href="liability-insurance">Liability Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
+                                        <Link href="employee-insurance">Employee Benifit Insurance<span
+                                                className="icon-next"></span></Link>
+                                    </li>
+                                    <li>
+                                        <Link href="crime-insurance">Crime Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                     >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service

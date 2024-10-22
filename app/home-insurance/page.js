@@ -46,37 +46,7 @@ After any major calamity like a Cyclone, Floods, Earthquake or Burglary hit a pa
 To avoid such things it is suggested that everyone should have Home Insurance protecting all their assets at Home from the vagaries of nature and manmade. <br/>
 
 SmarTech Tele callers and the website will help Individuals to find suitable solution for their exposure and avail Insurance protection comfortably sitting at Home.</p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+                          
                             <div className="insurance-details__faq">
                                 <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                     <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
@@ -85,8 +55,8 @@ SmarTech Tele callers and the website will help Individuals to find suitable sol
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Home insurance is a policy that provides financial protecƟon against damages to your home and 
-its contents due to risks like fire, theŌ, natural disasters, and more.</p>
+                                                <p>Home insurance is a policy that provides financial protection against damages to your home and 
+its contents due to risks like fire, theft, natural disasters, and more.</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -96,9 +66,15 @@ its contents due to risks like fire, theŌ, natural disasters, and more.</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p> Building Insurance: Covers the structure of your home. 
- Contents Insurance: Covers personal belongings inside the home. 
- Comprehensive Home Insurance: Combines both building and contents coverage. 
+                                                <p> <span style={{
+                                                    fontWeight:"600"
+                                                }}> Building Insurance:</span> Covers the structure of your home. <br/>
+<span style={{
+                                                    fontWeight:"600"
+                                                }}>Contents Insurance:</span> Covers personal belongings inside the home. 
+<span style={{
+                                                    fontWeight:"600"
+                                                }}>Comprehensive Home Insurance:</span> Combines both building and contents coverage. 
 </p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -109,11 +85,14 @@ its contents due to risks like fire, theŌ, natural disasters, and more.</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Exclusions may include: 
- Wear and tear 
- Damage from termites or pests 
- Nuclear accidents 
- IntenƟonal damage
+                                                <p>Exclusions may include:
+                                                    <ul>
+<li>Wear and tear </li>
+<li>  Damage from termites or pests </li>
+<li>  Nuclear accidents </li>
+<li>  Intenational damage</li>
+</ul> 
+
 </p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -126,7 +105,7 @@ its contents due to risks like fire, theŌ, natural disasters, and more.</p>
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>Most home insurance policies cover certain natural disasters (like fire and flood) but may have 
-specific exclusions or require addiƟonal coverage for certain events (like earthquakes).</p>
+specific exclusions or require additional coverage for certain events (like earthquakes).</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -137,7 +116,7 @@ specific exclusions or require addiƟonal coverage for certain events (like eart
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>To file a claim, contact your insurer, provide necessary documentaƟon (such as photographs of 
+                                                <p>To file a claim, contact your insurer, provide necessary documentation (such as photographs of 
 the damage, police reports, and receipts), and follow their claims process. .</p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -151,32 +130,25 @@ the damage, police reports, and receipts), and follow their claims process. .</p
                             <div className="insurance-details__catagories">
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
-                                    <li>
-                                        <Link href="life-insurance">Life Insurance<span className="icon-next"></span></Link>
+                                <li>
+                                        <Link href="health-insurance">
+Health Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="health-insurance">Health Insurance<span
+                                        <Link href="travel-insurance">Travel Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
-                                    <li>
+                                    <li  >
                                         <Link href="car-insurance">Car Insurance<span className="icon-next"></span></Link>
                                     </li>
-                                    <li className="active">
+                                    <li  className="active">
                                         <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
-                                    </li>
-                                    <li>
-                                        <Link href="family-insurance">Family Insurance<span
-                                                className="icon-next"></span></Link>
-                                    </li>
-                                    <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
-                                                className="icon-next"></span></Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                   >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service

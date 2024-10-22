@@ -46,37 +46,7 @@ If there is deficiency the product supplied it can result in product liability e
 If the commercial activity is resulting pollution or chemical spillage or gas leakage can result in problem to the people living in the surrounding area. This is called Public liability
 <br/>
 Like this any business activity will have liability exposures. The same can be suitably managed by the smartTech experts through insurance solutions.</p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+                          
                             <div className="insurance-details__faq">
                                 <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                     <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
@@ -86,10 +56,14 @@ Like this any business activity will have liability exposures. The same can be s
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>Liability insurance typically covers: 
- Legal defense costs 
- SeƩlements or judgments against the insured
- Medical expenses for injured parƟes
- Damage to third-party property 
+                                                    <ul>
+
+                                                    <li>Legal defense costs </li>
+                                                    <li>SeƩlements or judgments against the insured</li>
+                                                    <li>Medical expenses for injured parties</li>
+                                                    <li>Damage to third-party property </li>
+</ul>
+
 </p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -100,8 +74,12 @@ Like this any business activity will have liability exposures. The same can be s
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p> Liability Insurance: Covers claims related to harm or damage caused to others. 
- Property Insurance: Covers damage to your own property. 
+                                                <p><span style={{
+                                                    fontWeight:"600"
+                                                }}>Liability Insurance:</span> Covers claims related to harm or damage caused to others. 
+<span style={{
+                                                    fontWeight:"600"
+                                                }}> Property Insurance: </span> Covers damage to your own property. 
 </p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -125,12 +103,15 @@ the policy limits.</p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Yes, common exclusions may include: 
- IntenƟonal acts or criminal acƟviƟes
- Employee injuries (typically covered by workers' compensaƟon)
- Damage to the insured's own property 
- Claims arising from specific professional services (which may require addiƟonal 
-coverage) 
+                                                <p>Yes, common exclusions may include:
+                                                    <ul>
+                                                    <li>Intentional acts or criminal activities</li>
+                                                    <li>Employee injuries (typically covered by workers' compensation)</li>
+                                                    <li>Damage to the insured's own property </li>
+                                                    <li> Claims arising from specific professional services (which may require additional 
+coverage)</li>
+</ul> 
+
 </p>
                                             </div>{/*  /.inner  */}
                                         </div>
@@ -157,25 +138,29 @@ pay for a claim.</p>
                             <div className="insurance-details__catagories">
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
-                                    <li className="active">
-                                        <Link href="Liability-insurance">Liability Insurance<span className="icon-next"></span></Link>
+                                <li>
+                                        <Link href="property-insurance">Property  Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
                                         <Link href="health-insurance">Health Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
-                                    <li>
-                                        <Link href="car-insurance">Car Insurance<span className="icon-next"></span></Link>
+                                    <li >
+                                        <Link href="Project-insurance">Project Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
+                                        <Link href="marine-insurance">Marine  Insurance<span className="icon-next"></span></Link>
                                     </li>
-                                    <li>
-                                        <Link href="family-insurance">Family Insurance<span
+                                    <li className="active">
+                                        <Link href="liability-insurance">Liability Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                     <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
+                                        <Link href="employee-insurance">Employee Benifit Insurance<span
+                                                className="icon-next"></span></Link>
+                                    </li>
+                                    <li>
+                                        <Link href="crime-insurance">Crime Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                 </ul>

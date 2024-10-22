@@ -49,37 +49,7 @@ SmartTech will be able to help individuals thro our Tele callers to find suitabl
 SmartTech will bring in a Technology driven solution in this area also, which will help the individuals to have health Insurance policies done siting at home in a hassle free manner.
 
 </p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+                       
                             <div className="insurance-details__faq">
                                 <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                     <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
@@ -89,10 +59,18 @@ SmartTech will bring in a Technology driven solution in this area also, which wi
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Individual Health Insurance: Covers a single person.
-Family Floater Plans: Covers the entire family under one sum insured.
-Critical Illness Plans: Provides a lump sum on diagnosis of specified serious illnesses.
-Top-Up Plans: Additional coverage with a higher deductible.</p>
+                                                <p><span style={{
+                                                    fontWeight:"600"
+                                                }}>Individual Health Insurance:</span> Covers a single person.
+<span style={{
+                                                    fontWeight:"600"
+                                                }}> Family Floater Plans: </span> Covers the entire family under one sum insured. <br/>
+<span style={{
+                                                    fontWeight:"600"
+                                                }}> Critical Illness Plans: </span>Provides a lump sum on diagnosis of specified serious illnesses.
+<span style={{
+                                                    fontWeight:"600"
+                                                }}> Top-Up Plans: </span>Additional coverage with a higher deductible.</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
@@ -150,11 +128,12 @@ Top-Up Plans: Additional coverage with a higher deductible.</p>
                             <div className="insurance-details__catagories">
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
-                                    <li>
-                                        <Link href="life-insurance">Life Insurance<span className="icon-next"></span></Link>
+                                <li  className="active"> 
+                                        <Link href="health-insurance">
+Health Insurance<span className="icon-next"></span></Link>
                                     </li>
-                                    <li className="active">
-                                        <Link href="health-insurance">Health Insurance<span
+                                    <li>
+                                        <Link href="travel-insurance">Travel Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
                                     <li>
@@ -163,19 +142,11 @@ Top-Up Plans: Additional coverage with a higher deductible.</p>
                                     <li>
                                         <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
                                     </li>
-                                    <li>
-                                        <Link href="family-insurance">Family Insurance<span
-                                                className="icon-next"></span></Link>
-                                    </li>
-                                    <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
-                                                className="icon-next"></span></Link>
-                                    </li>
                                 </ul>
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                   >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service

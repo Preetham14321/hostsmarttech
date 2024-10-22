@@ -50,37 +50,7 @@ We work with insurance companies across the country to provide suitable policies
 
 The digital platform to be launched by SamrtTech will be of great support to the clients in this area.
 </p>
-                            <div className="insurance-details__points-and-text-box">
-                                <div className="insurance-details__points-box">
-                                    <h3 className="insurance-details__points-title">Our Goals</h3>
-                                    <ul className="insurance-details__points list-unstyled">
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Aliquam accumsan et ante id</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Lorem ipsum dolor sit dgdr</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-check-mark-1"></span>
-                                            </div>
-                                            <p>Maecenas varius tortor</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="insurance-details__text-box">
-                                    <h3>The Challenges</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Maecenas varius
-                                        tortor
-                                        nibh, sit amet tempor<br/> finibus et. Aenean eu enim justo. Vestibulum</p>
-                                </div>
-                            </div>
+                           
                             <div className="insurance-details__faq">
                                 <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
                                     <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
@@ -94,28 +64,28 @@ The digital platform to be launched by SamrtTech will be of great support to the
  <ul>
     <li>
 
- Medical expenses for emergencies 
+Medical expenses for emergencies 
     </li>
     <li>
 
- Trip cancellaƟon or interrupƟon
+Trip cancellation or interruption
     </li>
     <li>
 
- Loss or delay of baggage 
+ Loss or delay of baggage 
     </li>
     <li>
 
 
- Emergency evacuaƟon
+ Emergency evacuation
     </li>
     <li>
 
- Personal liability 
+ Personal liability 
     </li>
     <li>
 
- Accidental death or dismemberment 
+Accidental death or dismemberment 
     </li>
     </ul>                                              
 </p>
@@ -124,19 +94,19 @@ The digital platform to be launched by SamrtTech will be of great support to the
                                     </div>
                                     <div className={isActive.key == 2 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(2)}>
                                         <div className="accrodion-title">
-                                            <h4>Is travel insurance mandatory for internaƟonal travel</h4>
+                                            <h4>Is travel insurance mandatory for international travel</h4>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
                                                 <p>While not legally mandatory, many countries require proof of travel insurance for visa 
-applicaƟons or entry. It's strongly recommended to ensure coverage for unexpected events.
+applications or entry. It's strongly recommended to ensure coverage for unexpected events.
 </p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
                                     <div className={isActive.key == 3 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(3)}>
                                         <div className="accrodion-title">
-                                            <h4>Can I buy travel insurance aŌer starƟng my trip?</h4>
+                                            <h4>Can I buy travel insurance after starting my trip?</h4>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
@@ -151,14 +121,14 @@ limited coverage for emergencies occurring during the trip. </p>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
-                                                <p>Contact your insurance provider immediately. They can help you find medical faciliƟes and may 
+                                                <p>Contact your insurance provider immediately. They can help you find medical facilities and may 
 arrange direct billing with hospitals</p>
                                             </div>{/*  /.inner  */}
                                         </div>
                                     </div>
                                     <div className={isActive.key == 4 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(4)}>
                                         <div className="accrodion-title">
-                                            <h4>What is trip cancellaƟon insurance?</h4>
+                                            <h4>What is trip cancellation insurance?</h4>
                                         </div>
                                         <div className="accrodion-content">
                                             <div className="inner">
@@ -176,32 +146,25 @@ your trip for covered reasons, like illness or emergencies. </p>
                             <div className="insurance-details__catagories">
                                 <h3 className="insurance-details__catagories-title">Catagories</h3>
                                 <ul className="insurance-details__catagories-list list-unstyled">
-                                    <li>
-                                        <Link href="life-insurance">Life Insurance<span className="icon-next"></span></Link>
+                                <li>
+                                        <Link href="health-insurance">
+Health Insurance<span className="icon-next"></span></Link>
                                     </li>
-                                    <li className="active">
-                                        <Link href="Travel-insurance">Travel Insurance<span
+                                    <li  className="active">
+                                        <Link href="travel-insurance">Travel Insurance<span
                                                 className="icon-next"></span></Link>
                                     </li>
-                                    <li>
+                                    <li  >
                                         <Link href="car-insurance">Car Insurance<span className="icon-next"></span></Link>
                                     </li>
                                     <li>
                                         <Link href="home-insurance">Home Insurance<span className="icon-next"></span></Link>
                                     </li>
-                                    <li>
-                                        <Link href="family-insurance">Family Insurance<span
-                                                className="icon-next"></span></Link>
-                                    </li>
-                                    <li>
-                                        <Link href="business-insurance">Buisness Insurance<span
-                                                className="icon-next"></span></Link>
-                                    </li>
                                 </ul>
                             </div>
                             <div className="insurance-details__need-help">
                                 <div className="insurance-details__need-help-bg"
-                                    style={{ backgroundImage: 'url(assets/images/backgrounds/insurance-details-need-help-bg.jpg)' }} >
+                                     >
                                 </div>
                                 <h3 className="insurance-details__need-help-title">Need Any Types
                                     <br/> of Service
